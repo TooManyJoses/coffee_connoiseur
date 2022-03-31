@@ -1,12 +1,17 @@
+:root {
+  --text-crema: rgba(245, 222, 179, 1);
+  --text-cafe: rgba(53, 35, 0, 1);
+  --text-black: rgba(17, 24, 39, 1);
+  --text-white-100: rgba(249, 250, 251, 1);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: url("/static/background.png");
-  background-position: 50%;
-  background-repeat: no-repeat;
+  background: url("/static/background.png") no-repeat 50%;
   background-size: cover;
   height: 100%;
   color: wheat;
