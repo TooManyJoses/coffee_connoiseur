@@ -20,7 +20,7 @@ export default function Home() {
           handleOnClick={handleOnBannerButtonClick}
         />
         <div className={styles.coffeeImage}>
-          <Image src="/static/banner.png" width={700} height={300} />
+          <Image src="/static/banner.png" width={700} height={250} />
         </div>
       </main>
     </div>

@@ -77,7 +77,7 @@
   }
 
   .coffeeImage {
-    right: 0;
+    right: 10px;
   }
 
   .cardLayout {
@@ -96,7 +96,7 @@
     padding-right: 2rem /* 32px */;
   }
   .coffeeImage {
-    right: 0;
+    right: 10px;
   }
   .cardLayout {
     grid-template-columns: repeat(3, minmax(0, 1fr));
