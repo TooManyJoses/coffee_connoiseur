@@ -36,9 +36,9 @@
   }
   
   .button {
-    background-color: var(--text-cafe);
+    background-color: var(--text-crema);
     cursor: pointer;
-    color: white;
+    color: var(--text-cafe);
     outline: 0;
     border: 0px;
   
@@ -51,8 +51,8 @@
   }
   
   .button:hover {
-    background-color: var(--text-crema);
-    color: var(--text-cafe);
+    background-color: var(--text-cafe);
+    color: var(--text-crema);
     font-weight: bold;
   }
   

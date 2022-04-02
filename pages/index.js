@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Banner from "../components/banner";
+import Banner from "../components/Banner/banner";
+import Card from "../components/Card/card";
 
 export default function Home() {
   const handleOnBannerButtonClick = () => {
@@ -21,6 +22,14 @@ export default function Home() {
         />
         <div className={styles.coffeeImage}>
           <Image src="/static/banner.png" width={700} height={250} />
+        </div>
+        <div className={styles.cardLayout}>
+          <Card
+            name="Roos Roast"
+            imgUrl="/Graphicloads-Food-Drink-Coffee-bean.ico"
+            href="https://www.roosroast.com/"
+            className={styles.card}
+          />
         </div>
       </main>
     </div>
