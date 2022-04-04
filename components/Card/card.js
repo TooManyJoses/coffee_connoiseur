@@ -6,8 +6,8 @@ import styles from "./card.module.css";
 const Card = ({ name, imgUrl, href }) => {
   return (
     <Link href={href}>
-      <a className={styles.cardLink}>
-        <div className={cls('glass', styles.container)}>
+      <a className={styles.cardLink} target="_blank" rel="noopener noreferrer">
+        <div className={cls("glass", styles.container)}>
           <div className={styles.cardHeaderWrapper}>
             <h2 className={styles.cardHeader}>{name}</h2>
           </div>
@@ -16,7 +16,7 @@ const Card = ({ name, imgUrl, href }) => {
               className={styles.cardImage}
               src={imgUrl}
               width={260}
-              height={160}
+              height={260}
             />
           </div>
         </div>

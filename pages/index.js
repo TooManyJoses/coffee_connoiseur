@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Banner from "../components/Banner/banner";
 import Card from "../components/Card/card";
+import mockData from "../data/mock-stores.json";
 
 export default function Home() {
   const handleOnBannerButtonClick = () => {
@@ -24,12 +25,12 @@ export default function Home() {
           <Image src="/static/banner.png" width={700} height={250} />
         </div>
         <div className={styles.cardLayout}>
-          <Card
-            name="Roos Roast"
-            imgUrl="/Graphicloads-Food-Drink-Coffee-bean.ico"
-            href="https://www.roosroast.com/"
+          {mockData.map((store) => <Card
+            name={store.name}
+            imgUrl={store.imgUrl}
+            href={`/coffee-store/${store.id}`}
             className={styles.card}
-          />
+          />)}
         </div>
       </main>
     </div>

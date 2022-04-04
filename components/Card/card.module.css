@@ -16,14 +16,11 @@
     padding-bottom: 1.25rem /* 20px */;
     padding-left: 1rem /* 16px */;
     padding-right: 1rem /* 16px */;
+    color: var(--text-cafe);
   
     backdrop-filter: blur(10px);
   }
-  
-  .container:hover {
-    color: var(--text-cafe);
-  }
-  
+
   .cardHeaderWrapper {
     margin-top: 0.75rem /* 12px */;
     margin-bottom: 0.75rem /* 12px */;
